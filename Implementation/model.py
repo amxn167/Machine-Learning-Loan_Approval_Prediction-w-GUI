@@ -9,7 +9,7 @@ import pickle
 import pandas as pd
 
 # load the data
-data = pd.read_csv('C:/Users/mailm/Downloads/loan_predicition-master/loan_predicition-master/LoanApprovalPrediction.csv')
+data = pd.read_csv('loan_predicition-master/LoanApprovalPrediction.csv')
 # Drop Loan_ID column
 data.drop(['Loan_ID'], axis=1, inplace=True)
 # convert to int datatype
